@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Geheimtexte</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <h1>Geheimtexte o.o</h1>
+
+    <div class="wrapper">
+      <div class="ceasar">
+        <h2>Ceasar verschlüsselung</h2>
+        <input type="text" id="ceasarInput" />
+        <input type="number" id="ceasarKeyInput" />
+        <button onclick="encrypt()">encoder</button>
+        <button onclick="decrypt()">decoder</button>
+        <p id="resultC"></p>
+      </div>
+
+      <div class="morse">
+        <h2>Morse Code</h2>
+        <input type="text" id="morseInput" />
+        <button onclick="morseCrypt()">Encrypt</button>
+        <p id="resultM"></p>
+      </div>
+    </div>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
